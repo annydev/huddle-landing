@@ -1,0 +1,335 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+}
+
+h1 {
+  font-size: 47px;
+  margin: auto;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+button {
+  font-family: "Open Sans";
+}
+
+/*WELCOME CONTENT*/
+#welcome-part {
+  background: url(../images/bg-hero-desktop.svg);
+  background-color: #e0ffff;
+}
+
+.welcome-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.welcome-image {
+  width: 90%;
+  margin: 40px 20px;
+}
+
+.text-presentation {
+  margin: 60px 40px;
+  padding: 60px 40px;
+}
+
+.text-presentation-p {
+  margin: 15px 7px 10px 3px;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.text-presentation button {
+  box-shadow: 0 5px 10px 0 lightgrey;
+  font-weight: bold;
+  margin: 20px 0 0 1px;
+  padding: 20px 60px;
+  border-radius: 26px;
+  border-style: none;
+  background-color: #ff52bf;
+  color: #ebfbff;
+}
+
+.text-presentation button:hover {
+  background-color: #ff52bfad;
+}
+
+/*HEADER PART*/
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-part-header {
+  flex: auto;
+}
+
+.right-part-header {
+  width: 16rem;
+}
+
+.right-part-header button {
+  box-shadow: 0 2px 10px 0 lightgrey;
+  border-style: none;
+  border-radius: 28px;
+  margin-top: 35px;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 20px 70px;
+}
+
+.right-part-header button:hover {
+  background-color: #eeeeeec7;
+}
+
+.logo {
+  height: 36px;
+  padding-left: 85px;
+  padding-top: 44px;
+}
+
+/*BIG CONTENT*/
+#big-content p {
+  color: #808d99;
+}
+
+.content-style {
+  box-shadow: 0 1px 22px 0 #eeeeee;
+  background-color: white;
+  margin: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.conversation-image {
+  width: 100%;
+}
+
+.text-content-style {
+  padding: 85px;
+  /*  width: 100%;*/
+}
+
+.second-content-part {
+  flex-direction: row-reverse;
+}
+
+.third-content-part {
+  margin-bottom: 118px;
+}
+
+/*REGISTRATION SECTION*/
+.registration-for-user {
+  text-align: center;
+  box-shadow: 0 -3px 9px 0 #032d3c17;
+  width: 50%;
+  border-radius: 12px;
+  padding: 40px 0;
+  background-color: white;
+  position: relative;
+  margin: 13px auto -95px auto;
+}
+
+.registration-for-user button {
+  box-shadow: 0 5px 10px 0 lightgrey;
+  padding: 20px 76px;
+  border-radius: 33px;
+  border-style: none;
+  color: white;
+  background-color: #ff52bf;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.registration-for-user button:hover {
+  background-color: #ff52bfad;
+}
+
+/*FOOTER SECTION*/
+#footer-part {
+  color: whitesmoke;
+  background-color: #032d3c;
+  padding: 60px 60px 40px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 40% 1fr 1fr 1fr;
+  padding: 100px 60px 35px;
+  margin: 0;
+}
+
+.footer-style {
+  font-size: 20px;
+  margin: 35px 4px 12px 12px;
+  padding: 20px;
+}
+
+.icon-and-text-footer {
+  display: flex;
+  margin: 0 40px 20px 0;
+}
+
+.footer-image {
+  margin-bottom: 30px;
+}
+
+.footer-images {
+  margin-top: 6px;
+  width: 23px;
+  height: 34px;
+}
+
+.footer-paragraph {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.copyright-info {
+  text-align: right;
+  font-size: 12px;
+}
+
+.fab {
+  margin-right: 12px;
+  margin-top: 22px;
+  border-style: ridge;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+/*Mobile size*/
+@media only screen and (max-device-width: 375px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  #welcome-part {
+    background: url(../images/bg-hero-mobile.svg);
+    background-color: #e0ffff;
+  }
+
+  .welcome-container {
+    display: block;
+    text-align: center;
+  }
+
+  .text-presentation {
+    margin: 10px;
+    padding: 58px 15px;
+  }
+
+  .text-presentation-p {
+    margin: 12px 0 9px;
+    font-size: 17px;
+  }
+
+  .text-presentation button {
+    margin-top: 30px;
+    padding: 12px 62px;
+  }
+
+  .welcome-image {
+    margin: 5px 10px 28px;
+  }
+
+  .logo {
+    height: 18px;
+    padding-left: 18px;
+    padding-top: 30px;
+  }
+
+  .right-part-header button {
+    padding: 5px 22px;
+    margin: 27px 12px 0 118px;
+    font-size: 10px;
+  }
+
+  /*BIG CONTENT*/
+  .content-style {
+    margin: 50px 26px 10px;
+    flex-direction: column-reverse;
+    border-radius: 21px;
+  }
+
+  .text-content-style {
+    padding: 0;
+    text-align: center;
+  }
+
+  .text-content-style p {
+    font-size: 14px;
+  }
+
+  .text-content-style h2 {
+    font-size: 20px;
+  }
+
+  .second-content-part {
+    flex-direction: column;
+  }
+
+  .third-content-part {
+    margin-bottom: 75px;
+  }
+
+  .registration-for-user {
+    width: 87%;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .registration-for-user h2 {
+    font-size: 18px;
+  }
+
+  .registration-for-user button {
+    font-size: 9px;
+    padding: 11px 38px;
+  }
+
+  /*FOOTER PART*/
+  #footer-part {
+    padding: 0;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    padding: 153px 60px 21px 20px;
+  }
+
+  .footer-style {
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-social-icons {
+    text-align: center;
+  }
+
+  .icon-and-text-footer {
+    margin: 0 40px 8px 0;
+  }
+
+  .copyright-info {
+    text-align: center;
+    padding-bottom: 53px;
+  }
+
+  .fab {
+    margin-right: 7px;
+    margin-top: 22px;
+  }
