@@ -252,7 +252,7 @@ button {
   }
 
   .right-part-header button {
-    padding: 5px 22px;
+    padding: 7px 22px;
     margin: 27px 12px 0 118px;
     font-size: 10px;
   }
@@ -307,7 +307,7 @@ button {
 
   .footer-content {
     grid-template-columns: 1fr;
-    padding: 153px 60px 21px 20px;
+    padding: 153px 20px 21px 20px;
   }
 
   .footer-style {
